@@ -47,8 +47,12 @@ overrides:
   yauzl: ^3.4.0
 
 patchedDependencies:
-  '@codemirror/view@6.43.1': 57e68d979309f5b8fe1e0feeb48eebdd7b795ba743cb4ae887bd0b8aca17001f
-  juice@12.1.0: dcd1f89cb59a233375a0b488e0c0fd2c299ff1c4ef138410f7c3018f3a25186d
+  '@codemirror/view@6.43.1':
+    hash: 57e68d979309f5b8fe1e0feeb48eebdd7b795ba743cb4ae887bd0b8aca17001f
+    path: patches/@codemirror__view@6.43.1.patch
+  juice@12.1.0:
+    hash: dcd1f89cb59a233375a0b488e0c0fd2c299ff1c4ef138410f7c3018f3a25186d
+    path: patches/juice@12.1.0.patch
 
 importers:
 
